@@ -4,6 +4,7 @@ const app = express();
 const port = 3030;
 const router = require("./router.js");
 
+app.use(express.static("src/front"));
 app.use(express.json());
 app.use(router);
 
