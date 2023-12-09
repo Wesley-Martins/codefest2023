@@ -1,0 +1,2 @@
+INSERT INTO users(name, cpf, email, telephone, gift_number)
+VALUES('Marco Aurélio', 04567887790, 'marcoau12@gmail.com', 51976549422, 0541)
